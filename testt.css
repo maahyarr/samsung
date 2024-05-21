@@ -1,0 +1,14 @@
+div{
+    width: 500px;
+    height: 700px;
+    background-color: aqua;
+    
+}
+
+div:hover>img{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
